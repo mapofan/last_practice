@@ -1,0 +1,103 @@
+
+h2{
+    color: rgb(3, 30, 37);
+}
+.contact-us{
+    width: 450px;
+    background:#13c7f9;
+    padding: 50px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+}
+.social-icon{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    display: flex;
+}
+.social-icon div{
+    width: 100px;
+    height: 80px;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 0px;
+}
+.social-icon div a{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(15%, -50%);
+    color: rgb(255, 251, 0);
+    font-size: 8px;
+    }
+    .social-icon div.home{
+    background: #3652f4;
+    }
+    .social-icon div.lashin{
+    background: #3652f4;
+    }
+    .social-icon div.surugaya{
+    background: #3652f4;
+    }
+    .social-icon div.animate{
+        background: #3652f4;
+    }
+    .social-icon div.contact{
+        background: #3652f4;
+    }
+    img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    }
+    img{
+    border-radius: 10%;
+    }
+    .form, .form-item{
+    top: 20px;
+    width: 100%;
+    }
+    .form-item .input{
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border: none;
+        padding: 25px 40px;
+        box-sizing: border-box;
+        background: rgb(238, 237, 234);
+        }
+        .form-item{
+        position: relative;
+        }
+        .form-item .fas{
+            position: absolute;
+            top: 25px;
+            left: 15px;
+        }
+        .btn{
+        text-align: center;
+        width: 95%;
+        background: #dddce0;
+        border-radius: 20px;
+        padding: 10px 6px;
+        color: #f8faf0;
+        cursor: pointer;
+        margin: 10px;
+        } 
+        tr:hover{
+            background-color: rgb(10, 245, 234);
+            color: rgb(145, 193, 234);
+        }
+        table{
+            width: 400px;
+        }
+        td img{
+            border-radius: 50;
+        }
+        td:hover img{
+            box-shadow:2px 3px 5px rgb(27, 36, 193);
+        }
+        
